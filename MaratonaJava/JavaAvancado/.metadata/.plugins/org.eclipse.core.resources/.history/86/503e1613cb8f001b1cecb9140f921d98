@@ -1,0 +1,11 @@
+package ClassesInternas;
+
+public class ClassesLocais {
+
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

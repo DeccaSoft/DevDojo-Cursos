@@ -1,0 +1,38 @@
+package ClassesInternas;
+
+import java.util.ArrayList;
+import java.util.Comparator;
+import java.util.List;
+
+class Animal{
+	public void andar() {
+		System.out.println("Animal Andando...");
+	}
+}
+public class ClassesAnonimas {
+
+	public static void main(String[] args) {
+		
+		Animal a = new Animal() {
+			public void andar() {
+				System.out.println("Andando Anonimamente...");
+			}
+		};
+		a.andar();
+		
+		//Trouxe a Classe Carro do Pacote _132Generics para exemplificar o uso com a Interface Comparable
+		List<Carro> carroList = new ArrayList<>();
+		carroList.add(new Carro("BMX"));
+		carroList.add(new Carro("Audi"));
+		
+	}
+}
+
+class CarroComparator implements Comparator<Carro>{
+
+	@Override
+	public int compare(Carro o1, Carro o2) {
+		return o1.getNome().compareTo(o2.getNome());
+	}
+	
+}

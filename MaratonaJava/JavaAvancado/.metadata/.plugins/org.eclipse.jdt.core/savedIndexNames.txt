@@ -1,0 +1,2 @@
+INDEX VERSION 1.131+C:\Users\andre\WorkSpaces\DevDojo\MaratonaJava\JavaAvancado\.metadata\.plugins\org.eclipse.jdt.core
+2648648994.index

@@ -1,0 +1,21 @@
+package ClassesInternas;
+
+public class ClassesLocais {
+
+	private String nome = "André";
+	
+	public void fazAlgumaCoisa() {
+		class Interna{
+			public void imprimeNomeExterno() {
+				System.out.println(nome);
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

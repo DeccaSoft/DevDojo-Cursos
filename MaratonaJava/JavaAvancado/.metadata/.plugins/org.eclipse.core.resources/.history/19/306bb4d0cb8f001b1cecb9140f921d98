@@ -1,0 +1,25 @@
+package ClassesInternas;
+
+public class ClassesLocais {
+
+	private String nome = "André";
+	
+	public void fazAlgumaCoisa() {
+		class Interna{
+			public void imprimeNomeExterno() {
+				System.out.println(nome);
+			}
+		}
+		
+		//Neste caso tem-se que criar um objeto da classe aqui, caso contrário não terá acesso a este método!
+		Interna in = new Interna();
+		in.imprimeNomeExterno();
+	}
+	
+	public static void main(String[] args) {
+		
+		
+
+	}
+
+}

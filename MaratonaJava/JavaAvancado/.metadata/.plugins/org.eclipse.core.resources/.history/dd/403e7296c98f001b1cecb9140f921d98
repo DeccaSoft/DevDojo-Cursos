@@ -1,0 +1,34 @@
+package ClassesInternas;
+
+public class ClassesInternasTeste {
+	
+	private String nome = "Andre Morais";
+	
+	class InternaOuAninhada{
+		public void verClasseExterna() {
+			System.out.println(nome);	//Classes internas teem acesso aos atributos(inclusive privados) das OuterClasses
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		//Para se Instanciar uma Classe Interna precisa-se primeiro instanciar a Classe Extaerna
+		ClassesInternasTeste externa = new ClassesInternasTeste();
+		ClassesInternasTeste.InternaOuAninhada in = externa.new InternaOuAninhada();
+		in.verClasseExterna();
+		
+	}
+
+}
+
+//class Externa{
+//	
+//	private String nome = "Andre Morais";
+//	
+//	class InternaOuAninhada{
+//		public void verClasseExterna() {
+//			System.out.println(nome);	//Classes internas teem acesso aos atributos(inclusive privados) das OuterClasses
+//		}
+//	}
+//	
+//}

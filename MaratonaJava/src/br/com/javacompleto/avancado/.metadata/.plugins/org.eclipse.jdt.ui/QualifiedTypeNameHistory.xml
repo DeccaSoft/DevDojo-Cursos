@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="_132Generics.Animal"/>
+    <fullyQualifiedTypeName name="java.lang.Comparable"/>
+    <fullyQualifiedTypeName name="_132Generics.CarroAlugavel"/>
+    <fullyQualifiedTypeName name="_132Generics.ObjetoAlugavel"/>
+    <fullyQualifiedTypeName name="_132Generics.Cachorro"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.Comparator"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="ClassesInternas.CarroComparator"/>
+    <fullyQualifiedTypeName name="ClassesInternas.Externa.Interna"/>
+</qualifiedTypeNameHistroy>

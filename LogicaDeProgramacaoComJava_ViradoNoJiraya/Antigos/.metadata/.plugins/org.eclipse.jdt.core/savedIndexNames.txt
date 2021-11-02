@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\andre\Documents\WorkSpacesOrganizados\DevDojo\LogicaDeProgramacaoComJava_ViradoNoJiraya\.metadata\.plugins\org.eclipse.jdt.core
+1459126405.index
+1930104330.index
+4269865746.index

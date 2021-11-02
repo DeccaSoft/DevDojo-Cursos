@@ -1,0 +1,10 @@
+package ClassesInternas;
+
+public class ClassesInternasTeste {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

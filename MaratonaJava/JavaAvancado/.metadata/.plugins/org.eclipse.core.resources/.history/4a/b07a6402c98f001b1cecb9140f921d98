@@ -1,0 +1,32 @@
+package ClassesInternas;
+
+public class ClassesInternasTeste {
+	
+	private String nome = "Andre Morais";
+	
+	class InternaOuAninhada{
+		public void verClasseExterna() {
+			System.out.println(nome);	//Classes internas teem acesso aos atributos(inclusive privados) das OuterClasses
+		}
+	}
+
+	public static void main(String[] args) {
+		
+		ClassesInternasTeste externa = new ClassesInternasTeste();
+		ClassesInternasTeste.InternaOuAninhada in = externa.new InternaOuAninhada();
+
+	}
+
+}
+
+//class Externa{
+//	
+//	private String nome = "Andre Morais";
+//	
+//	class InternaOuAninhada{
+//		public void verClasseExterna() {
+//			System.out.println(nome);	//Classes internas teem acesso aos atributos(inclusive privados) das OuterClasses
+//		}
+//	}
+//	
+//}

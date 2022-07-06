@@ -1,0 +1,28 @@
+name: github_app
+description: GitHub DevDojo
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2 #Icones do IOS
+  http: ^0.12.0+4 #Dependência para fazer requisições http
+  flutter_highlight: ^0.6.0 #Biblioteca para formatação do código
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^1.0.0
+
+flutter:
+  uses-material-design: true
+
+
